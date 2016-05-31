@@ -21,7 +21,8 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    cashTextField.text = "$0.00"
+    cashTextField.delegate = cashDelegate
     zipCodeTextField.delegate = zipCodeDelegate
     lockedTextField.delegate = lockDelegate
   }
