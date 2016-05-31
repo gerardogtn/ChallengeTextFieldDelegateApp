@@ -15,7 +15,7 @@ class LockableTextFieldDelegate: NSObject, UITextFieldDelegate {
     isLocked = locked
   }
   
-  func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
-    return isLocked
+  func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+    return !isLocked
   }
 }

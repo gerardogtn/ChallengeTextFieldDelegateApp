@@ -15,16 +15,20 @@ class ViewController: UIViewController {
   @IBOutlet var lockedTextField: UITextField!
   @IBOutlet var isLockedSwitch: UISwitch!
   
+  let zipCodeDelegate: ZipCodeTextFieldDelegate = ZipCodeTextFieldDelegate()
+  let cashDelegate: CashTextFieldDelegate = CashTextFieldDelegate()
+  let lockDelegate: LockableTextFieldDelegate = LockableTextFieldDelegate()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    lockedTextField.delegate = lockDelegate
   }
 
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  @IBAction func lockSwitchDidChange() {
+    print(isLockedSwitch.on ? "Lock swith is ON, should not edit" : "Lock switch is OFF, should edit" )
+    lockDelegate.setLocked(isLockedSwitch.on)
   }
-
 
 }
 

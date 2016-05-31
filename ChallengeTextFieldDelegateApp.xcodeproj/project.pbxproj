@@ -14,6 +14,9 @@
 		D4164CBC1CFE02E200E30C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4164CBA1CFE02E200E30C65 /* LaunchScreen.storyboard */; };
 		D4164CC71CFE02E200E30C65 /* ChallengeTextFieldDelegateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4164CC61CFE02E200E30C65 /* ChallengeTextFieldDelegateAppTests.swift */; };
 		D4164CD21CFE02E200E30C65 /* ChallengeTextFieldDelegateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4164CD11CFE02E200E30C65 /* ChallengeTextFieldDelegateAppUITests.swift */; };
+		D4164CE01CFE05D600E30C65 /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4164CDF1CFE05D600E30C65 /* ZipCodeTextFieldDelegate.swift */; };
+		D4164CE21CFE061400E30C65 /* CashTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4164CE11CFE061400E30C65 /* CashTextFieldDelegate.swift */; };
+		D4164CE41CFE06ED00E30C65 /* LockableTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4164CE31CFE06ED00E30C65 /* LockableTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D4164CCD1CFE02E200E30C65 /* ChallengeTextFieldDelegateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeTextFieldDelegateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4164CD11CFE02E200E30C65 /* ChallengeTextFieldDelegateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTextFieldDelegateAppUITests.swift; sourceTree = "<group>"; };
 		D4164CD31CFE02E200E30C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4164CDF1CFE05D600E30C65 /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		D4164CE11CFE061400E30C65 /* CashTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashTextFieldDelegate.swift; sourceTree = "<group>"; };
+		D4164CE31CFE06ED00E30C65 /* LockableTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockableTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				D4164CB81CFE02E200E30C65 /* Assets.xcassets */,
 				D4164CBA1CFE02E200E30C65 /* LaunchScreen.storyboard */,
 				D4164CBD1CFE02E200E30C65 /* Info.plist */,
+				D4164CDF1CFE05D600E30C65 /* ZipCodeTextFieldDelegate.swift */,
+				D4164CE11CFE061400E30C65 /* CashTextFieldDelegate.swift */,
+				D4164CE31CFE06ED00E30C65 /* LockableTextFieldDelegate.swift */,
 			);
 			path = ChallengeTextFieldDelegateApp;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4164CB41CFE02E200E30C65 /* ViewController.swift in Sources */,
+				D4164CE21CFE061400E30C65 /* CashTextFieldDelegate.swift in Sources */,
 				D4164CB21CFE02E200E30C65 /* AppDelegate.swift in Sources */,
+				D4164CE01CFE05D600E30C65 /* ZipCodeTextFieldDelegate.swift in Sources */,
+				D4164CE41CFE06ED00E30C65 /* LockableTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
