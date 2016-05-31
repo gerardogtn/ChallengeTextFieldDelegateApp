@@ -52,6 +52,12 @@
                             <constraint firstItem="GMo-nh-L0G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="rkR-Jk-i7j"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cashTextField" destination="sFm-Fb-oir" id="6sq-IT-jXd"/>
+                        <outlet property="isLockedSwitch" destination="m3B-u4-DYC" id="2rh-1W-gKs"/>
+                        <outlet property="lockedTextField" destination="GMo-nh-L0G" id="6pt-uh-QwA"/>
+                        <outlet property="zipCodeTextField" destination="K5w-0Z-gw2" id="FtF-PC-rV3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
