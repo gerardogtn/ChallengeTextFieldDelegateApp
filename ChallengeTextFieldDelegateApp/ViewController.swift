@@ -22,6 +22,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    zipCodeTextField.delegate = zipCodeDelegate
     lockedTextField.delegate = lockDelegate
   }
 
